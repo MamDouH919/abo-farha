@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
-Sitemap: https://thebest-paint-kuwait.com/sitemap.xml
+Sitemap: https://abofarha-paints.com/sitemap.xml
