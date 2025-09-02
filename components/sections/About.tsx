@@ -1,11 +1,11 @@
 import React from 'react';
 import { Box, Container, Grid2 as Grid, Stack, Typography } from '@mui/material';
 import image1 from '@/app/Images/img1.webp';
-import image2 from '@/app/Images/image2.webp';
-import image3 from '@/app/Images/image5.webp';
+import image2 from '@/app/Images/img3.webp';
+import image3 from '@/app/Images/img4.webp';
 
-import image4 from '@/app/Images/about/man-painting-wall-light-pink-600nw-2154517733.webp';
-import image5 from '@/app/Images/about/about1.webp';
+import image4 from '@/app/Images/img7.webp';
+import image5 from '@/app/Images/img5.webp';
 
 import Image from 'next/image';
 import SectionTitle from '../layouts/SectionTitle';

@@ -2,7 +2,7 @@
 import { Fab, Stack } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import clsx from "clsx";
-import { FaArrowUp, FaInstagram, FaPhone, FaWhatsapp } from "react-icons/fa";
+import { FaArrowUp, FaPhone, FaTiktok, FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -46,12 +46,12 @@ const StyledIconButton = styled(Stack)(({ theme }) => ({
     },
   },
   [`& .${classes.tiktokIcon}`]: {
-    backgroundColor: "#cc2366",
+    backgroundColor: "#000",
     color: "#FFF",
     fontSize: "30px",
     cursor: "pointer",
     [`&:hover`]: {
-      background: "#b01050ff", // solid color on hover
+      background: "#000", // solid color on hover
     },
   },
   [`& .${classes.toTop}`]: {
@@ -124,10 +124,10 @@ const SocialIcons: React.FC = () => {
         target="_blank"
         rel="noopener noreferrer"
         title="Tiktok"
-        href={`https://www.instagram.com/sameh6051?utm_source=qr&igsh=dHg3dWpjNXJ2ejE1`}
+        href={`https://www.tiktok.com/@user79235046171227?_t=ZS-8zOjsyMMxer&_r=1`}
       >
         <Fab className={classes.tiktokIcon} aria-label="whatsapp">
-          <FaInstagram />
+          <FaTiktok />
         </Fab>
       </Link>
     </StyledIconButton>

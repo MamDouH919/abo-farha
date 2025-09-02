@@ -2,19 +2,17 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import image1 from '@/app/Images/image1.webp';
-import image2 from '@/app/Images/image2.webp';
-import image3 from '@/app/Images/image3.webp';
-import image4 from '@/app/Images/image4.webp';
-import image5 from '@/app/Images/image5.webp';
-import image6 from '@/app/Images/image6.webp';
-import image7 from '@/app/Images/image7.webp';
-import image8 from '@/app/Images/image8.webp';
-import image9 from '@/app/Images/image9.webp';
-import image10 from '@/app/Images/image10.webp';
-import image11 from '@/app/Images/image11.webp';
-import image12 from '@/app/Images/image12.webp';
-import image13 from '@/app/Images/image13.webp';
+import image1 from '@/app/Images/img2.webp';
+import image2 from '@/app/Images/img3.webp';
+import image3 from '@/app/Images/img4.webp';
+import image4 from '@/app/Images/img5.webp';
+import image5 from '@/app/Images/img6.webp';
+import image6 from '@/app/Images/img7.webp';
+import image7 from '@/app/Images/img8.webp';
+import image8 from '@/app/Images/img9.webp';
+import image9 from '@/app/Images/img10.webp';
+import image10 from '@/app/Images/img11.webp';
+import image11 from '@/app/Images/img12.webp';
 
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 import { styled } from "@mui/material/styles";
@@ -84,7 +82,7 @@ const Root = styled("div")(({ theme }) => ({
     },
 }));
 
-const data = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13]
+const data = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11]
 
 function App() {
     return (

@@ -2,7 +2,7 @@
 import React from 'react'
 import { styled } from "@mui/material/styles";
 import { Fab, Stack, Typography } from '@mui/material';
-import { FaInstagram, FaRegCopyright, FaTiktok } from 'react-icons/fa';
+import { FaRegCopyright, FaTiktok } from 'react-icons/fa';
 import Link from 'next/link';
 
 
@@ -71,18 +71,8 @@ const Services = () => {
                 <Link
                     target="_blank"
                     rel="noopener noreferrer"
-                    title="instagram"
-                    href={`https://www.instagram.com/sameh6051/`}
-                >
-                    <Fab aria-label="instagram" size='small'>
-                        <FaInstagram size={25} />
-                    </Fab>
-                </Link>
-                <Link
-                    target="_blank"
-                    rel="noopener noreferrer"
                     title="tiktok"
-                    href={`https://www.tiktok.com/@userid8g1sm327`}
+                    href={`https://www.tiktok.com/@user79235046171227?_t=ZS-8zOjsyMMxer&_r=1`}
                 >
                     <Fab aria-label="instagram" size='small'>
                         <FaTiktok size={25} />

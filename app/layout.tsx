@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ThemeProv from "@/context/ThemeProv";
-import SocialIcons from "@/components/layouts/SocialIcons";
-import { Cairo } from 'next/font/google'
 
+import { Cairo } from 'next/font/google'
+import dynamic from "next/dynamic";
+
+const SocialIcons = dynamic(() => import("@/components/layouts/SocialIcons"));
 const cairo = Cairo({ weight: ["600", "700", "800"], subsets: ["latin"] })
 
 export const metadata: Metadata = {
@@ -71,20 +73,19 @@ export default function RootLayout({
   return (
     <html lang={"ar"} dir={"rtl"}>
       <head>
-        <meta name="google-site-verification" content="Lu0G3lQr4L0zyx6SMtomb38CxSEVBjS_mLvLzP9MLB4" />
         <link rel="icon" href="/favicon.ico" />
         <meta httpEquiv="content-language" content="ar" />
         <link
           rel="apple-touch-icon"
-          href="/apple-icon?<generated>"
-          type="image/<generated>"
-          sizes="<generated>"
+          href="/apple-icon.png"
+          type="image/png"
+          sizes="png"
         />
         <link
           rel="icon"
-          href="/icon?<generated>"
-          type="image/<generated>"
-          sizes="<generated>"
+          href="/icon.png"
+          type="image/png"
+          sizes="png"
         />
         {/* <GoogleAnalytics gaId="G-YYCCSJQ60Q" /> */}
         <script
@@ -704,6 +705,24 @@ export default function RootLayout({
                         "position": 96,
                         "name": "صباغ الرومانسية",
                         "item": "https://thebest-paint-kuwait.com/sabaagh-alromanisya"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 96,
+                        "name": "صباغين الكويت",
+                        "item": "https://thebest-paint-kuwait.com/sabaagheen-alkuayt"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 96,
+                        "name": "معلم تركيب ورق جدران",
+                        "item": "https://thebest-paint-kuwait.com/muealim-tarkib-waraq-judran"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 96,
+                        "name": "معلم تركيب سيراميك",
+                        "item": "https://thebest-paint-kuwait.com/muealim-tarkib-seramik"
                       },
                     ]
                   },

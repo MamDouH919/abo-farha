@@ -586,5 +586,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    {
+      url: 'https://thebest-paint-kuwait.com/sabaagheen-alkuayt',
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://thebest-paint-kuwait.com/muealim-tarkib-waraq-judran',
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://thebest-paint-kuwait.com/muealim-tarkib-seramik',
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
   ];
 }
