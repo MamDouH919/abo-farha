@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: "صباغ الكويت يقدم خدمات صباغة رخيصة واحترافية بجودة عالية وبأسعار تنافسية.",
     images: [
       {
-        url: "https://abofarha-paints.com/image.png",
+        url: "https://abofarha-paints.com/logo.png",
         width: 1200,
         height: 630,
         alt: "صباغ الكويت",
@@ -83,7 +83,7 @@ export default function RootLayout({
         />
         <link
           rel="icon"
-          href="/icon.png"
+          href="/icon0.png"
           type="image/png"
           sizes="png"
         />
