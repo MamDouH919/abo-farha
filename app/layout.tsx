@@ -4,6 +4,7 @@ import ThemeProv from "@/context/ThemeProv";
 
 import { Cairo } from 'next/font/google'
 import dynamic from "next/dynamic";
+import Script from "next/script";
 
 const SocialIcons = dynamic(() => import("@/components/layouts/SocialIcons"));
 const cairo = Cairo({ weight: ["600", "700", "800"], subsets: ["latin"] })
@@ -73,6 +74,20 @@ export default function RootLayout({
   return (
     <html lang={"ar"} dir={"rtl"}>
       <head>
+
+        {/* Google Tag Manager */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17541194066"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads-tracking" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17541194066');
+          `}
+        </Script>
         <link rel="icon" href="/favicon.ico" />
         <meta httpEquiv="content-language" content="ar" />
         <link
