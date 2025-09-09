@@ -83,7 +83,7 @@ export default function RootLayout({
         />
         <link
           rel="icon"
-          href="/icon0.png"
+          href="/web-app-manifest-512x512.png"
           type="image/png"
           sizes="png"
         />
