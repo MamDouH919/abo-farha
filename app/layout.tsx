@@ -109,6 +109,7 @@ export default function RootLayout({
             __html: JSON.stringify(
               {
                 "@context": "https://schema.org",
+                "@type": "WebPage",
                 "@graph": [
                   {
                     "@type": "WebPage",
@@ -760,31 +761,6 @@ export default function RootLayout({
                     , "inLanguage": "ar"
                   }
                 ]
-                // "@type": "WebPage",
-                // "@id": "",
-                // "name": "صباغ الكويت",
-                // "description": "صباغ الكويت ,افضل صباغ في الكويت لجميع لجميع انواع الاصباغ زيتي- مطفي- صبغ بدون رائحة مع افضل الاسعار ",
-                // "url": "https://abofarha-paints.com",
-                // "address": {
-                //   "@type": "PostalAddress",
-                //   "streetAddress": "الكويت",
-                //   "addressLocality": "مدينة الكويت",
-                //   "addressRegion": "الكويت",
-                //   "postalCode": "00000",
-                //   "addressCountry": "kuwait"
-                // },
-
-                // "geo": {
-                //   "@type": "GeoCoordinates",
-                //   "latitude": 29.3759,
-                //   "longitude": 47.9774
-                // },
-
-                // "sameAs": [
-                //   "https://www.instagram.com/sameh6051/"
-                // ],
-                // "image": "https://abofarha-paints.com/image.png",
-                // "telephone": "50303335"
               },
             )
           }}
