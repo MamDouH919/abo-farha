@@ -193,10 +193,10 @@ function Navbar() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters sx={{ justifyContent: "space-between", py: 2 }}>
                     <Stack mx={2} spacing={1} direction={"row"} alignItems={"center"}>
-                        <Image src={"/logo.png"} alt="logo" width={60} height={60} objectFit='contain' />
-                        <Typography component={"b"} color={"primary"} fontSize={30} textAlign={"center"} fontWeight={"bold"}>
+                        <Image src={"/abo-farha.png"} alt="abo-farha" width={200} height={60} objectFit='contain' />
+                        {/* <Typography component={"b"} color={"primary"} fontSize={30} textAlign={"center"} fontWeight={"bold"}>
                             ابو فرحه
-                        </Typography>
+                        </Typography> */}
                         {/* <img src={logo} alt='logo' height={80} srcSet={logo} /> */}
                     </Stack>
                     <Stack direction={"row"} spacing={1} useFlexGap alignItems={"center"}>
