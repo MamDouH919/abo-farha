@@ -90,7 +90,7 @@ export default function RootLayout({
         </Script>
         {/* <!-- End Google Tag Manager --> */}
         {/* Google Tag Manager */}
-        <Script
+        {/* <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17541194066"
           strategy="afterInteractive"
         />
@@ -101,7 +101,7 @@ export default function RootLayout({
             gtag('js', new Date());
             gtag('config', 'AW-17541194066');
           `}
-        </Script>
+        </Script> */}
         <link rel="icon" href="/favicon.ico" />
         <meta httpEquiv="content-language" content="ar" />
         <link
