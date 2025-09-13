@@ -193,7 +193,7 @@ function Navbar() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters sx={{ justifyContent: "space-between", py: 2 }}>
                     <Stack mx={2} spacing={1} direction={"row"} alignItems={"center"}>
-                        <Image src={"/abo-farha.png"} alt="abo-farha" width={200} height={60} objectFit='contain' />
+                        <Image src={"/logo.png"} alt="صباغ الكويت" width={200} height={60} objectFit='contain' />
                         {/* <Typography component={"b"} color={"primary"} fontSize={30} textAlign={"center"} fontWeight={"bold"}>
                             ابو فرحه
                         </Typography> */}
