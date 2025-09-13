@@ -6,7 +6,7 @@ import IconButton from '@mui/material/IconButton';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import { Divider, MenuItem, Stack,  } from '@mui/material';
+import { Divider, MenuItem, Stack, } from '@mui/material';
 import { Fragment, useEffect, useState } from 'react';
 import clsx from 'clsx';
 // import Settings from './Settings';
@@ -192,13 +192,15 @@ function Navbar() {
         >
             <Container maxWidth="xl">
                 <Toolbar disableGutters sx={{ justifyContent: "space-between", py: 2 }}>
-                    <Stack mx={2} spacing={1} direction={"row"} alignItems={"center"}>
-                        <Image src={"/logo.png"} alt="صباغ الكويت" width={200} height={60} objectFit='contain' />
-                        {/* <Typography component={"b"} color={"primary"} fontSize={30} textAlign={"center"} fontWeight={"bold"}>
-                            ابو فرحه
-                        </Typography> */}
-                        {/* <img src={logo} alt='logo' height={80} srcSet={logo} /> */}
-                    </Stack>
+                    <div style={{ position: 'relative', width: '200px', height: '60px' }}>
+                        <Image
+                            src="/logo.png"
+                            alt="صباغ الكويت"
+                            fill
+                            style={{ objectFit: 'contain' }}
+                        />
+                    </div>
+
                     <Stack direction={"row"} spacing={1} useFlexGap alignItems={"center"}>
                         <Stack direction={"row"} alignItems={"center"} spacing={1} useFlexGap sx={{ display: { xs: 'none', md: 'flex' } }}>
                             {NavLinks.map((link) => (
