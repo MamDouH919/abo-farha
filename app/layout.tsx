@@ -89,6 +89,22 @@ export default function RootLayout({
           `}
         </Script>
         {/* <!-- End Google Tag Manager --> */}
+        <Script id="google-conversion-event" strategy="afterInteractive">
+          {`
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-17541194066/fK86COvgqJsbENLCpaxB',
+          'event_callback': callback
+      });
+      return false;
+    }
+  `}
+        </Script>
         {/* Google Tag Manager */}
         {/* <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17541194066"
