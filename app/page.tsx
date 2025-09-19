@@ -25,22 +25,25 @@ export default function Home() {
             textAlign="center"
           >
             <Typography variant="h1" fontSize={40} color="primary.main">
-              <strong>صباغ الكويت</strong>
+              <strong>صباغ الكويت - صباغ شاطر ورخيص</strong>
             </Typography>
             <Typography color="#000" variant="body1" lineHeight={1.7}>
-              مرحبًا بكم في خدمات <strong>صباغ الكويت</strong>، حيث نقدم خدمات صباغة
+              مرحبًا بكم في خدمات <strong>صباغ الكويت المحترف</strong>، حيث نقدم خدمات صباغة
               متكاملة تتميز بالجودة والاحترافية. نحن متخصصون في تقديم حلول صباغة
               في الكويت عالية الجودة ونسعى دائمًا لتقديم أفضل خدمة لعملائنا.
             </Typography>
+
             <Typography color="#000" variant="body1" lineHeight={1.7}>
-              فريقنا في <strong>صباغ الكويت</strong> يتألف من خبراء ذوي كفاءة عالية،
+              فريقنا في <strong>أفضل صباغ الكويت</strong> يتألف من خبراء ذوي كفاءة عالية،
               والذين يستخدمون أحدث التقنيات لتقديم أفضل النتائج. نحن هنا لتحقيق
               رؤيتكم وتلبية احتياجاتكم بأعلى مستوى من الرضا.
             </Typography>
+
             <Typography color="#000" variant="body1" lineHeight={1.7}>
-              نحن في <strong>صباغ الكويت</strong> نؤمن بأهمية التفاصيل وجودة العمل. لهذا،
-              نحرص على توفير ألوان نابضة بالحياة وتجربة صباغة مميزة.
+              نحن في <strong>صباغ الكويت للديكورات الحديثة</strong> نؤمن بأهمية التفاصيل وجودة العمل.
+              لهذا، نحرص على توفير ألوان نابضة بالحياة وتجربة صباغة مميزة.
             </Typography>
+
           </Stack>
           <PhoneStyle />
         </Container>
