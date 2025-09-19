@@ -95,7 +95,7 @@ const Services = () => {
                 {/* Block 2 */}
                 <Paper component={Stack} p={3} alignItems={"center"} spacing={2} className={classes.container}>
                     <Typography variant="h3" textAlign={"center"} fontWeight={500} fontSize={22} color="primary.main">
-                        <strong>صباغ الكويت</strong>: خدمات دهان احترافية بأفضل الأسعار
+                        <strong>أفضل صباغ الكويت</strong>: خبرة في جميع أعمال الدهان والديكور
                     </Typography>
                     <Typography textAlign={"center"} fontSize={15} color="text.secondary" width={{ xs: "auto", md: "80%" }}>
                         في الكويت، يبحث الكثيرون عن <strong>صباغ منازل</strong> يقدم خدمات دهان احترافية بأسعار تنافسية.
