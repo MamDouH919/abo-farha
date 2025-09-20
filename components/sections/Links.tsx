@@ -511,8 +511,8 @@ const Links = () => {
         <Container maxWidth="lg" sx={{ my: 5 }} id="articles">
             <SectionTitle sectionTitle={"صباغ الكويت"} variant='body1' />
             <Stack mt={4} direction={"row"} alignItems={"center"} flexWrap={"wrap"} justifyContent={"center"} useFlexGap={true} spacing={2}>
-                {allLinks.map(element => (
-                    <CustomLink title={element.title} href={element.href} key={element.id}>
+                {allLinks.map((element, index) => (
+                    <CustomLink title={element.title} href={element.href} key={index}>
                         {element.title}
                     </CustomLink>
                 ))}

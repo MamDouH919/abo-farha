@@ -197,9 +197,11 @@ function Navbar() {
                             src="/logo.png"
                             alt="صباغ الكويت"
                             fill
+                            sizes="200px"
                             style={{ objectFit: 'contain' }}
                         />
                     </div>
+
 
                     <Stack direction={"row"} spacing={1} useFlexGap alignItems={"center"}>
                         <Stack direction={"row"} alignItems={"center"} spacing={1} useFlexGap sx={{ display: { xs: 'none', md: 'flex' } }}>

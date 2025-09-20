@@ -89,27 +89,38 @@ export default function RootLayout({
           `}
         </Script>
         {/* <!-- End Google Tag Manager --> */}
-        
-        <Script id="google-conversion-direct" strategy="afterInteractive">
+
+        {/* <Script id="google-conversion-direct" strategy="afterInteractive">
           {`
     gtag('event', 'conversion', {
       'send_to': 'AW-17541194066/fK86COvgqJsbENLCpaxB'
     });
   `}
-        </Script>
-        {/* Google Tag Manager */}
-        {/* <Script
+        </Script> */}
+        {/* Load the gtag.js library */}
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17541194066"
           strategy="afterInteractive"
         />
-        <Script id="google-ads-tracking" strategy="afterInteractive">
+
+        {/* Initialize gtag */}
+        <Script id="gtag-init" strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-17541194066');
-          `}
-        </Script> */}
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-17541194066');
+        `}
+        </Script>
+
+        {/* Conversion event */}
+        <Script id="google-conversion-direct" strategy="afterInteractive">
+          {`
+          gtag('event', 'conversion', {
+            'send_to': 'AW-17541194066/fK86COvgqJsbENLCpaxB'
+          });
+        `}
+        </Script>
         <link rel="icon" href="/favicon.ico" />
         <meta httpEquiv="content-language" content="ar" />
         <link

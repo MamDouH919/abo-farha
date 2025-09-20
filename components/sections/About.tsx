@@ -70,7 +70,7 @@ const About = () => {
                 />
                 <Stack spacing={2} mt={5}>
                     {data.map((element, index) => (
-                        <div key={element.id}  >
+                        <div key={index}  >
                             <Grid
                                 container
                                 spacing={2}
