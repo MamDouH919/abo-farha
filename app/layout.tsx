@@ -5,6 +5,7 @@ import ThemeProv from "@/context/ThemeProv";
 import { Cairo } from 'next/font/google'
 import dynamic from "next/dynamic";
 import Script from "next/script";
+import { AuthContextProvider } from "@/components/AuthContext";
 
 const SocialIcons = dynamic(() => import("@/components/layouts/SocialIcons"));
 const cairo = Cairo({ weight: ["600", "700", "800"], subsets: ["latin"] })
@@ -812,7 +813,7 @@ export default function RootLayout({
         </noscript>
         <ThemeProv>
           <SocialIcons />
-          {children}
+          <AuthContextProvider>{children}</AuthContextProvider>
         </ThemeProv>
       </body>
     </html>

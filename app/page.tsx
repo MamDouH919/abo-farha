@@ -7,6 +7,7 @@ const About = dynamic(() => import("@/components/sections/About"));
 const App = dynamic(() => import("@/components/sections/Gallary"));
 const Links = dynamic(() => import("@/components/sections/Links"));
 const Services = dynamic(() => import("@/components/sections/Services"));
+const Testimonial = dynamic(() => import("@/components/sections/Testimonial"));
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <BannerOne />
       <About />
+      <Testimonial />
       <App />
       <Links />
       <Services />
