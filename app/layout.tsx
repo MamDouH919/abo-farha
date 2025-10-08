@@ -75,6 +75,7 @@ export default function RootLayout({
   return (
     <html lang={"ar"} dir={"rtl"}>
       <head>
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="SJKHMA1/aRdi9hvI6jwSjQ" async></script>
         {/* <!-- Google Tag Manager --> */}
         <Script id="gtm-script" strategy="afterInteractive">
           {`
