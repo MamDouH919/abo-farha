@@ -12,6 +12,9 @@ const title = "صباغ كيفان"
 export const metadata: Metadata = {
     title: `صباغ الكويت - 50303335 - صباغ شاطر ورخيص - ${title}`,
     keywords: `صباغ الكويت, صباغ شاطر, صباغ رخيص, اصباغ داخلية وخارجية, صباغ في الكويت, اصباغ حديثة, صباغ الكويت بأفضل الأسعار, ${title}`,
+    alternates: {
+        canonical: 'https://sabaghinkuwait.com/sabaagh-kaifan',
+    },
 }
 
 const Page = () => {

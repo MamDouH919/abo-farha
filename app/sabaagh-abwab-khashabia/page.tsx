@@ -5,15 +5,15 @@ import { Container, Divider, Stack, Typography } from '@mui/material'
 import { Metadata } from 'next'
 import React from 'react'
 import { ImageStyle } from '@/components/layouts/ImageStyle'
-import sabaagh_shatir from '@/app/Images/links-images/sabaagh-shatir.jpeg';
+import sabaagh_alkuayt from '@/app/Images/links-images/sabaagh-alkuayt.webp';
 
-const title = "صباغ شاطر"
+const title = "صباغ ابواب خشب"
 
 export const metadata: Metadata = {
     title: `صباغ الكويت - 50303335 - صباغ شاطر ورخيص - ${title}`,
     keywords: `صباغ الكويت, صباغ شاطر, صباغ رخيص, اصباغ داخلية وخارجية, صباغ في الكويت, اصباغ حديثة, صباغ الكويت بأفضل الأسعار, ${title}`,
     alternates: {
-        canonical: 'https://sabaghinkuwait.com/sabaagh-shatir',
+        canonical: 'https://sabaghinkuwait.com/sabaagh-abwab-khashabia',
     },
 }
 
@@ -25,13 +25,13 @@ const Page = () => {
                 <CustomLink href={"/"}>الرجوع الي القائمة الرئسية </CustomLink>
                 <PhoneStyle />
                 <Stack alignItems="center" spacing={2}>
-                    <ImageStyle src={sabaagh_shatir} alt="صباغ شاطر - صباغ ممتاز - صباغ الكويت" />
+                    <ImageStyle src={sabaagh_alkuayt} alt="صباغ الكويت" />
 
                     <Typography variant="h1" textAlign={"center"} fontWeight={500} fontSize={30} color="primary.main">
-                        صباغ شاطر - صباغ ممتاز - <strong>صباغ الكويت</strong> - 50303335
+                        <strong>صباغ الكويت</strong> - 50303335
                     </Typography>
                     <Typography textAlign="center" fontSize={18} color="text.secondary" width={{ xs: "auto", md: "80%" }}>
-                        <strong>صباغ الكويت</strong> يوفر لكم كل هذه الاشياء في عمله فان خبرته تجعله افضل صباغ حيث انه يعمل بأفضل الخامات عليه الجودة الذي تجعل عمليه الدهان تتم على اكمل وجه كما يتميز بانه يمتلك فريق عمل متخصص ويجعله يتمم المهمة في اسرع وقت كما يتميز <strong>صباغ الكويت</strong> بانه يوفر لكم ارخص الاسعار داخل دولة الكويت ويتبع الطرق الحديثة في عمليات الدهان ودائما ما يسعى لتطوير الخدمات التي يقدمها من اجل ارضاء العملاء
+                        صباغ الكويت واحد من امهر الصباغين الموجودين في الكويت متخصص في دهان الحوائط وتركيب ورق الجدران ويمتلك خبرة في مجال الاصباغ ويعتبر من افضل الصباغين وهذا الان يتميز بالجودة في الخدمة ويتميز بالاحترافية العالية والخبرة والادوات والمعدات التي يمتلكها التي تعتبر من احداث المعدات داخل دوله الكويت ولان الكثير منا يحب فكره تجديد منزله فلابد من ان تعين صباغ خبير يوفر لك احسن الخامات والمعدات الموجودة في مجال الاصباغ
                     </Typography>
                     <Divider component="div" orientation="horizontal" sx={{ width: '30%' }} />
                 </Stack>

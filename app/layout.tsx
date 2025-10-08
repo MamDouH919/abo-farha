@@ -775,6 +775,18 @@ export default function RootLayout({
                         "name": "معلم تركيب سيراميك",
                         "item": "https://sabaghinkuwait.com/muealim-tarkib-seramik"
                       },
+                      {
+                        "@type": "ListItem",
+                        "position": 97,
+                        "name": "معلم تركيب سيراميك",
+                        "item": "https://sabaghinkuwait.com/muealim-sabagh-bi-alkuayt"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 98,
+                        "name": "معلم تركيب سيراميك",
+                        "item": "https://sabaghinkuwait.com/sabaagh-abwab-khashabia"
+                      },
                     ]
                   },
                   {

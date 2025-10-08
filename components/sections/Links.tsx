@@ -118,6 +118,21 @@ const links = [
         id: 20,
         title: "معلم تركيب سيراميك",
         href: "muealim-tarkib-seramik",
+    },
+    {
+        id: 97,
+        title: "معلم صباغ بالكويت",
+        href: "muealim-sabagh-bi-alkuayt",
+    },
+    {
+        id: 98,
+        title: "معلم صباغ ابواب خشب",
+        href: "sabaagh-abwab-khashabia",
+    },
+    {
+        id: 99,
+        title: "معلم صباغ بيوت أطفال",
+        href: "sabaagh-buyut-aitfal",
     }
 ]
 
