@@ -140,7 +140,7 @@ export const zones = [
     {
         id: 21,
         title: "صباغ السالمية",
-        href: "sabaagh-alsaalimia"
+        href: "sabaagh-alsalmiya"
     },
     {
         id: 22,
@@ -515,7 +515,7 @@ export const zones = [
     {
         id: 96,
         title: "صباغ الرومانسية",
-        href: "sabaagh-alromanisya"
+        href: "sabaagh-alrumaithiya"
     },
 ];
 

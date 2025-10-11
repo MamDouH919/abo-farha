@@ -2,7 +2,7 @@
 import { Divider, Stack, Typography } from '@mui/material';
 import Image from 'next/image';
 import React from 'react';
-import sabaagh_alsaalimia from '@/app/Images/links-images/sabaagh_alsaalimia.jpg';
+import sabaagh_alsalmiya from '@/app/Images/links-images/sabaagh_alsaalimia.jpg';
 import sabaagh_sabah_alsaalim from '@/app/Images/links-images/sabaagh_sabah_alsaalim.webp';
 import sabaagh_hawalli from "@/app/Images/links-images/aisbgh_alkuayt.webp"
 import sabaagh_jaber_alahmad from "@/app/Images/links-images/aisbgh_alkuayt.webp"
@@ -142,7 +142,7 @@ const ImageStyle = ({ src, alt }: { src: string | StaticImport, alt: string }) =
 }
 
 const de = {
-    sabaagh_alsaalimia: <ImageStyle src={sabaagh_alsaalimia} alt={"صباغ السالمية"} />,
+    sabaagh_alsalmiya: <ImageStyle src={sabaagh_alsalmiya} alt={"صباغ السالمية"} />,
     sabaagh_sabah_alsaalim: <ImageStyle src={sabaagh_sabah_alsaalim} alt={"صباغ صباح السالم"} />,
     sabaagh_hawalli: <ImageStyle src={sabaagh_hawalli} alt={"صباغ حولي"} />,
     sabaagh_jaber_alahmad: <ImageStyle src={sabaagh_jaber_alahmad} alt={"صباغ جابر الاحمد"} />,

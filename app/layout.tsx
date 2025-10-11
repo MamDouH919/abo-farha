@@ -6,6 +6,7 @@ import { Cairo } from 'next/font/google'
 import dynamic from "next/dynamic";
 import Script from "next/script";
 import { AuthContextProvider } from "@/components/AuthContext";
+const Footer = dynamic(() => import("@/components/layouts/Footer"));
 
 const SocialIcons = dynamic(() => import("@/components/layouts/SocialIcons"));
 const cairo = Cairo({ weight: ["600", "700", "800"], subsets: ["latin"] })
@@ -305,7 +306,7 @@ export default function RootLayout({
                         "@type": "ListItem",
                         "position": 22,
                         "name": "صباغ السالمية",
-                        "item": "https://sabaghinkuwait.com/sabaagh-alsaalimia"
+                        "item": "https://sabaghinkuwait.com/sabaagh-alsalmiya"
                       },
                       {
                         "@type": "ListItem",
@@ -755,7 +756,7 @@ export default function RootLayout({
                         "@type": "ListItem",
                         "position": 96,
                         "name": "صباغ الرومانسية",
-                        "item": "https://sabaghinkuwait.com/sabaagh-alromanisya"
+                        "item": "https://sabaghinkuwait.com/sabaagh-alrumaithiya"
                       },
                       {
                         "@type": "ListItem",
@@ -826,7 +827,10 @@ export default function RootLayout({
         </noscript>
         <ThemeProv>
           <SocialIcons />
-          <AuthContextProvider>{children}</AuthContextProvider>
+          <AuthContextProvider>
+            {children}
+            <Footer />
+          </AuthContextProvider>
         </ThemeProv>
       </body>
     </html>
