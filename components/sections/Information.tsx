@@ -1,7 +1,6 @@
 import { Divider, Stack, Typography } from '@mui/material'
 import React from 'react'
 import dynamic from 'next/dynamic';
-const Footer = dynamic(() => import("@/components/layouts/Footer"));
 const Links = dynamic(() => import("@/components/sections/Links"));
 
 const Information = () => {
